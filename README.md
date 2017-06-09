@@ -52,3 +52,6 @@ Configuration parameters as input and Execution time as output
 Input parameters: trace of requests parameters: timing and architecture
 
 Output: time to retrieve each of elements in the trace. Total retrieval time for the complete trace. 
+
+References:
+[1] Singapura, Shreyas G., Rajgopal Kannan, and Viktor K. Prasanna. "On-chip memory efficient data layout for 2D FFT on 3D memory integrated FPGA." High Performance Extreme Computing Conference (HPEC), 2016 IEEE. IEEE, 2016.
