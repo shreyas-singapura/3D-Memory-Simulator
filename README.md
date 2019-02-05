@@ -2,6 +2,7 @@
 
 This is a high level functional simulator to evaluate the performance of 3D memories. The simulator is built on the model described in [1]. It accepts a trace of memory requests as input and outputs the retrieval time from memory. Each memory request in the trace contains the address of the block to be retrieved. The memory controller in the simulator is based on FRFCFS policy and performs reordering among requests in a window to optimize the memory access time. Since the vaults can be accessed in parallel, there is no access overhead for elements in different vaults, i.e., t_vault = 0ns. Here, it is assumed that switching the data from different vaults across the links of 3D memory is carried out later and the overall bandwidth is determined by the access time of vaults. 
 
+
 Architecture parameters of the simulator are:
 
 • v : number of vaults in 3D memory
@@ -13,6 +14,7 @@ Architecture parameters of the simulator are:
 • r : number of rows in a bank
 
 • c : number of columns in a row of a bank
+
 
 Timing parameters of the simulator are:
 
@@ -31,6 +33,7 @@ The simulator is built hierarchically. Each vault has a scheduler with 2 buffers
 Our simulator does not differentiate between reads and writes. We do not target cycle accurate performance, instead we are looking for higher order performance estimate.
 
 Features supported:
+
  inter layer pipelining
 
  parallel vault access
