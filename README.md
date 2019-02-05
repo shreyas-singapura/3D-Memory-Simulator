@@ -47,6 +47,7 @@ Development environment: Python
 Configuration parameters as input and Execution time as output.
 
 Input parameters: trace of requests parameters: timing and architecture
+
 Output: time to retrieve each of elements in the trace. Total retrieval time for the complete trace. 
 
 References:
